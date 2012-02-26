@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.test_files        = `git ls-files -- spec/*`.split("\n")
 
   s.add_dependency  'refinerycms-core',     '~> 2.0.0'
-  s.add_dependency  'refinerycms-settings', '~> 2.0.0'
+  s.add_dependency  'refinerycms-settings', '~> 1.0.9'
   s.add_dependency  'filters_spam',         '~> 0.2'
 end
